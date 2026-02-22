@@ -4,14 +4,15 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase
 import { getDatabase } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js";
 
 const firebaseConfig = {
-            apiKey: "AIzaSyBVBGxymgXruVJnkyKvRpMBIF2ogTV6WsM",
-            authDomain: "daily-visa-myanmar.firebaseapp.com",
-            projectId: "daily-visa-myanmar",
-            storageBucket: "daily-visa-myanmar.firebasestorage.app",
-            messagingSenderId: "687023213072",
-            appId: "1:687023213072:web:44af3f08417754301d9895",
-            measurementId: "G-C6YLRNQ0MM"
-        };
+  apiKey: "AIzaSyAAovCxbbiu9AbzR6HDJneCL8vOGPm02n4",
+  authDomain: "test-f1b7a.firebaseapp.com",
+  databaseURL: "https://test-f1b7a-default-rtdb.firebaseio.com",
+  projectId: "test-f1b7a",
+  storageBucket: "test-f1b7a.firebasestorage.app",
+  messagingSenderId: "987586572474",
+  appId: "1:987586572474:web:26be1d8fe5396a5aeed283",
+  measurementId: "G-SLY18M6TZ2"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
